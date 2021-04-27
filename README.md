@@ -1,2 +1,2 @@
-# Signup-and-login
+# MY-PAGE
 htmlcssbootstrapjsphpcodes on register and login pages
