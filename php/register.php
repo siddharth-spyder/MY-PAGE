@@ -12,7 +12,7 @@ if(isset($_POST['submit']))
         }
         else
         {
-            $j_qry=$conn->query("Insert into databasename(username,fullname,password) values('$name','$fullname','$password')");
+            $j_qry=$conn->query("Insert into tablename(username,fullname,password) values('$name','$fullname','$password')");
             if($j_qry)
             {
                 echo"registered successfully";
